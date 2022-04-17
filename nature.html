@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/gallery modal.css" rel="stylesheet">
+
+    <title>Photo Gallery</title>
+<style>
+
+.img-nav{
+ width: 50%;
+ height: 10%;
+ margin: 0px auto;
+}
+
+</style>
+  </head>
+  <body class="bg-secondary">
+    <!-- NAVBAR GOES HERE -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Galleria LaBelle</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Galleries
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="animals.html">Animals</a></li>
+            <li><a class="dropdown-item" href="art.html">Art</a></li>
+            <li><a class="dropdown-item" href="food.html">Food</a></li>
+            <li><a class="dropdown-item" href="nature.html">Nature</a></li>
+            <li><a class="dropdown-item" href="space.html">Space</a></li>
+            <li><a class="dropdown-item" href="tourism.html">Tourism</a></li>
+          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!-- NAVBAR ENDS HERE -->
+
+<br> <br> <br>
+    <h1 class="text-center">Welcome to Galleria LaBelle!</h1>
+<br> <br> <br>
+    
+<section class="image-grid">
+  <div class="container-xxl">
+    <div class="row gy-4">
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature1.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature2.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature3.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature4.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature5.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature6.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature7.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature8.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature9.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+            <img width="1920" height="1280" src="images\nature\nature10.png" class="img-fluid">
+          </a>
+        </figure>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <figure>
+          <a class="d-block" href="">
+          </a>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br> <br>
+
+<div class="modal lightbox-modal" id="lightbox-modal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="container-fluid p-0">
+          <!-- JS content here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer">
+  <span>made by </span>
+  <a href="https://georgemartsoukos.com/" target="_blank">
+    <img width="24" height="24" src="https://assets.codepen.io/162656/george-martsoukos-small-logo.svg" alt="George Martsoukos logo">
+  </a>
+</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/gallery modal.js"></script>
+  </body>
+</html>

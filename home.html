@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Photo Gallery</title>
+<style>
+
+.img-nav{
+ width: 50%;
+ height: 10%;
+ margin: 0px auto;
+}
+
+</style>
+  </head>
+  <body class="bg-secondary">
+    <!-- NAVBAR GOES HERE -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Galleria LaBelle</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Galleries
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="animals.html">Animals</a></li>
+            <li><a class="dropdown-item" href="art.html">Art</a></li>
+            <li><a class="dropdown-item" href="food.html">Food</a></li>
+            <li><a class="dropdown-item" href="nature.html">Nature</a></li>
+            <li><a class="dropdown-item" href="space.html">Space</a></li>
+            <li><a class="dropdown-item" href="tourism.html">Tourism</a></li>
+          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!-- NAVBAR ENDS HERE -->
+    <!-- CAROUSEL STARTS HERE -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\animal1.png" class="d-block img-nav" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\art1.png" class="d-block img-nav" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\food1.png" class="d-block img-nav" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\nature1.png" class="d-block img-nav" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
+        <p>Some representative placeholder content for the fourth slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\space1.png" class="d-block img-nav" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fifth slide label</h5>
+        <p>Some representative placeholder content for the fifth slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\tourism1.png" class="d-block img-nav" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Sixth slide label</h5>
+        <p>Some representative placeholder content for the sixth slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- CAROUSEL ENDS HERE -->
+<br> <br> <br>
+    <h1 class="text-center">Welcome to Galleria LaBelle!</h1>
+<br> <br> <br>
+    
+    <div class="container">
+	<div class="row align-items-start">
+	   <div class="col-lg-4 ms-auto">
+	    <a href="animals.html"> 
+      <img width="330" height="200" src="C:Users\hp user\OneDrive\Picture Gallery Website\images\animals\animal1.png" alt="" class="" /> </a>
+	      <h2>Animals</h2>
+	      <p>
+	     This is the decription that goes under the title
+	      </p>
+        <br> <br>
+	   </div>
+
+	   <div class="col-lg-4 ms-auto">
+      <a href="art.html"> 
+        <img width="330" height="200" src="C:Users\hp user\OneDrive\Picture Gallery Website\images\art\art1.png" alt="" class="" /> </a>
+	      <h2>Art</h2>
+	      <p>
+	     This is the decription that goes under the title
+	      </p>
+        <br> <br>
+	   </div>
+
+	   <div class="col-lg-4 ms-auto">
+      <a href="food.html"> 
+        <img width="330" height="200" src="C:Users\hp user\OneDrive\Picture Gallery Website\images\food\food1.png" alt="" class="" /> </a>
+	      <h2>Food</h2>
+	      <p>
+	     This is the decription that goes under the title
+	      </p>
+        <br> <br>
+	   </div>
+     
+     <div class="col-lg-4 ms-auto">
+      <a href="nature.html"> 
+        <img width="330" height="200" src="C:Users\hp user\OneDrive\Picture Gallery Website\images\nature\nature1.png" alt="" class="" /> </a>
+       <h2>Nature</h2>
+        <p>
+       This is the decription that goes under the title
+       </p>
+       <br> <br>
+     </div>
+
+     <div class="col-lg-4 ms-auto">
+      <a href="space.html"> 
+        <img width="330" height="200" src="C:Users\hp user\OneDrive\Picture Gallery Website\images\space\space1.png" alt="" class="" /> </a>
+       <h2>Space</h2>
+       <p>
+        This is the decription that goes under the title
+      </p>
+     </div>
+
+     <div class="col-lg-4 ms-auto">
+      <a href="space.html"> 
+        <img width="330" height="200" src="C:Users\hp user\OneDrive\Picture Gallery Website\images\tourism\tourism1.png" alt="" class="" /> </a>
+       <h2>Tourism</h2>
+       <p>
+        This is the decription that goes under the title
+      </p>
+     </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
